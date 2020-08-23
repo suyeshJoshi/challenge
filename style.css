@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#back{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(83, 83, 83); */
+}
+#top{
+    height: 62%;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+    background-image: url('https://i.pinimg.com/originals/cc/6d/86/cc6d86810d5682650ed57fe433428fee.jpg');
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+nav #logo{
+    display: flex;
+    align-items: center;
+}
+nav #logo .img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    margin-right: 10px;
+}
+nav #logo .img img{
+    height: 100%;
+    width: 100%;
+    transform: scale(1.19);
+}
+nav #logo h1{
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+#links{
+    display: flex;
+}
+#links a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+}
+#links #link1 a{
+    margin-right: 25px;
+}
+#links #link2 a{
+    margin-left: 25px;
+    color: rgb(184, 184, 184);
+}
+#seperator{
+    color: rgb(128, 128, 128);
+    margin: 0px 10px;
+}
+#info{
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+#info i{
+    color: white;
+    font-size: 40px;
+}
+#heading h1{
+    font-size: 55px;
+    color: white;
+}
+#btns{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    margin-top: 15px;
+}
+#btn1{
+
+    background-color: #16914d;
+}
+#btn2{
+    border: 1.4px solid white;
+}
+.btn{
+    width: 45%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#bottom{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+#music{
+    width: 35%;
+}
+#music h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+#music h4{
+    font-size: 19px;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+#music p{
+    font-size: 12px;
+    font-weight: 550;
+}
+#photos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.photo{
+    height: 100%;
+    width: 33.33%;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
